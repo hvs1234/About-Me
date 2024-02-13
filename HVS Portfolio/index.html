@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="My Portfolio website that I show my best perfomance along with my skills and optimized accessibility." />
+    <meta name="keywords" content="HTML, CSS, Javascript, (Portfolio Website)" />
+    <meta name="author" content="Harshvardhan Sharma" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="Favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="57x57" href="Favicon">
+    <link rel="apple-touch-icon" sizes="60x60" href="Favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="Favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="Favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="Favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="Favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="Favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="Favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="Favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="Favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+    <link rel="manifest" href="Favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200&family=Cinzel&family=Dosis:wght@300&family=Handjet:wght@300&family=Josefin+Sans:wght@300&family=Kalam:wght@300&family=Mate+SC&family=Oswald:wght@200&family=Patrick+Hand&family=Poppins:wght@200&family=Press+Start+2P&family=Saira:wght@300&family=Satisfy&family=Source+Code+Pro:ital,wght@1,300&family=Tilt+Prism&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Navbar Section -->
+
+    <header class="header">
+        <h2>Harshvardhan Sharma&nbsp; <i class="fa-solid fa-user-secret"></i></h2>
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li><a class="navbar-link home-link" href="#">Home</a></li>
+                <li><a class="navbar-link about-link" href="#about">About</a></li>
+                <li><a class="navbar-link portfolio-link" href="#portfolio">Portfolio</a></li>
+                <li><a class="navbar-link service-link" href="#service">Service</a></li>
+                <li><a class="navbar-link service-link" href="#client">Client</a></li>
+                <li><a class="navbar-link contact-link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-navbar-btn">
+            <i name="ham" class="fa-solid fa-bars mobile-nav-icon"></i>
+            <i name="cross" class="fa-solid fa-xmark mobile-nav-icon"></i>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+
+    <main>
+        <section class="section section-hero">
+            <div class="container grid grid-two-columns">
+                <div class="hero-section-data">
+                    <p class="hero-top-para">This is me&nbsp; <i class="fa-solid fa-user-graduate"></i></p>
+                    <h1 class="hero-heading">Harshvardhan Sharma</h1>
+                    <h3 class="auto-heading">I'm <span class="auto-type"></span></h3>
+                    <p class="hero-para">I'm Harshvardhan Sharma. A Front-End Web Developer, Electron Developer and Python Developer.</p>
+                    <div>
+                        <a href="#contact" class="btn hero-btn">Hire Me</a>
+                    </div>
+                </div>
+                <div class="hero-section-img">
+                    <img class="hero-image" id="hero-img" src="images/hero.webp" alt="hero-img">
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Biodata Section -->
+
+    <section class="section section-bio" id="about">
+        <div class="container grid grid-one-columns bio-grid">
+            <div class="bio-img">
+                <img src="images/biodata.webp" alt="biodata img">
+            </div>
+            <div class="bio-data">
+                <h2 class="common-heading">My Bio-Data&nbsp; <i class="fa-solid fa-user-tie"></i></h2>
+                <p>I'm Harshvardhan Sharma. I belongs to Dehradun->Uttarakhand, India. I have completed my schooling from Kendriya Vidyalaya Ordance Factory Dehradun. And I have completed my graduation in B.Tech CSE from Graphic Era Hill University Dehradun, Campus.</p>
+                <br />
+                <p>Talking about my skills and experience, so I'm well known in HTML, CSS, Javascript (include tools and frameworks like React and Electron), Python. Talking about my hobbies, so I love to play football and watching mind blowing facts about space science.</p>
+                <div class="bio-data-stats">
+                    <div class="bio-stats">
+                        <h3>Python</h3>
+                        <div class="bio-progress-bar">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>HTML</h3>
+                        <div class="bio-progress-bar bio-progress-2">
+                            <span>99%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>CSS</h3>
+                        <div class="bio-progress-bar bio-progress-3">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>JavaScript</h3>
+                        <div class="bio-progress-bar bio-progress-4">
+                            <span>85%</span>
+                        </div>
+                    </div>
+                    <div class="bio-stats">
+                        <h3>React JS</h3>
+                        <div class="bio-progress-bar bio-progress-5">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bio-data-button">
+                    <a class="btn" href="https://drive.google.com/file/d/1AkJGJQe3vi8juns7qhgL1bkzgQhdZqrQ/view" target="_blank">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+
+    <section class="section section-portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="common-heading">Latest Works&nbsp; <i class="fa-regular fa-circle-check"></i></h2>
+            <p class="portfolio-para">Check out my latest work, I always created lot of project and upload to best source platform that is GitHub. Here are some projects given below.</p>
+        </div>
+        <div class="p-btns">
+            <div class="btn p-btn" data-btn-num="1">Websites</div>
+            <div class="btn p-btn" data-btn-num="2">Projects</div>
+            <div class="btn p-btn" data-btn-num="3">Design</div>
+        </div>
+        <div class="container grid grid-three-columns portfolio-images">
+            <div class="img-overlay p-btn--1 p-btn--3">
+                <img src="images/folio/1.jpg" alt="one">
+                <div class="overlay">
+                    <a href="https://github.com/hvs1234/Image-Search-Engine" class="common-heading" target="_blank">Project 1</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--1">
+                <img src="images/folio/4.jpg" alt="one">
+                <div class="overlay">
+                    <a href="https://github.com/hvs1234/Advanced-Age-Calculator" class="common-heading" target="_blank">Project 2</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--1">
+                <img src="images/folio/3.jpg" alt="one">
+                <div class="overlay">
+                    <a href="https://github.com/hvs1234/CrptoCurrency-Data-App" class="common-heading" target="_blank">Project 3</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--1 p-btn--2">
+                <img src="images/folio/4.jpg" alt="one">
+                <div class="overlay">
+                    <a href="https://github.com/hvs1234/Get-Your-Taste" class="common-heading" target="_blank">Project 4</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--2 p-btn--3">
+                <img src="images/folio/5.jpg" alt="one">
+                <div class="overlay">
+                    <a href="https://github.com/hvs1234/Face-Recognition" class="common-heading" target="_blank">Project 5</a>
+                </div>
+            </div>
+            <div class="img-overlay p-btn--3 p-btn--2">
+                <img src="images/folio/1.jpg" alt="one">
+                <div class="overlay">
+                    <a href="https://github.com/hvs1234/Steganography" class="common-heading" target="_blank">Project 6</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+
+    <section class="section section-work">
+        <div class="container grid grid-four-columns">
+            <div>
+                <h2 class="counter-numbers" data-number="500+">0+</h2>
+                <p class="work-para">Project Stars</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number="600+">0+</h2>
+                <p class="work-para">Happy Clients</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number="400+">0+</h2>
+                <p class="work-para">Experience</p>
+            </div>
+            <div>
+                <h2 class="counter-numbers" data-number="3000+">0+</h2>
+                <p class="work-para">Contribution</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Section -->
+
+    <section class="section section-service" id="service">
+        <div class="container">
+            <h2 class="common-heading">Our Services&nbsp; <i class="fa-brands fa-react"></i></h2>
+            <p class="service-para">Here are some services we provide for our clients. We offer a wide range of services to help you grow your business.</p>
+        </div>
+        <div class="container grid grid-three-columns">
+            <div class="service-box">
+                <i class="fa-solid fa-display service-icon"></i>
+                <h3>Web Development</h3>
+                <p>"Code is the artist's brush, web development the canvas, creating interactive masterpieces that sculpt the landscape of the online world."</p>
+            </div>
+            <div class="service-box">
+                <i class="fa-solid fa-atom service-icon"></i>
+                <h3>Electron Development</h3>
+                <p>"Coding with electrons: a symphony of versatility, as developers compose harmonies that resonate across platforms, bringing ideas to life."</p>
+            </div>
+            <div class="service-box">
+                <i class="fa-brands fa-python service-icon"></i>
+                <h3>Python</h3>
+                <p>"Python, the language of serpentine elegance, effortlessly slithers through complex code, weaving simplicity and power into a tapestry of versatility."</p>
+            </div>
+            <div class="service-box">
+                <i class="fa-brands fa-react service-icon"></i>
+                <h3>React JS</h3>
+                <p>"React JS, the virtuoso of the virtual stage, orchestrates user interfaces with a symphony of components, transforming static screens into dynamic digital performances."</p>
+            </div>
+            <div class="service-box">
+                <i class="fa-brands fa-css3 service-icon"></i>
+                <h3>Tailwind CSS</h3>
+                <p>"Tailwind CSS, the minimalist maestro, conducts the design orchestra with utility-first precision, turning stylesheets into a harmonious symphony of sleek and efficient aesthetics."</p>
+            </div>
+            <div class="service-box">
+                <i class="fa-solid fa-database service-icon"></i>
+                <h3>Data Analysis</h3>
+                <p>"Data analysis, the art of unraveling narratives hidden in numbers, transforms raw information into enlightening stories, unveiling insights that shape informed decisions."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Swiper Section -->
+
+    <section class="section section-swiper" id="client">
+        <div class="container">
+            <h2 class="common-heading">Our Clients&nbsp; <i class="fa-solid fa-users"></i></h2>
+            <p class="swiper-para">Our diverse portfolio showcases a spectrum of esteemed clients, ranging from innovative startups to industry leaders.</p>
+        </div>
+        <div class="swiper mySwiper container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p><i class="fa-solid fa-quote-left quotes"></i>&nbsp;&nbsp; Harsh: You Know sometimes when I'm talking, my words can't keep up with my thoughts... I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. &nbsp;&nbsp;<i class="fa-solid fa-quote-right quotes"></i></p>
+                        <div class="swiper-client-data grid grid-two-columns">
+                            <figure>
+                                <img class="swiper-img" src="images/clients/a.jpg" alt="a">
+                            </figure>
+                            <div class="client-details">
+                                <p class="client-details-para">Martin Cooper</p>
+                                <p>Entrepreuner</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p><i class="fa-solid fa-quote-left quotes"></i>&nbsp;&nbsp; Harsh: You Know sometimes when I'm talking, my words can't keep up with my thoughts... I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. &nbsp;&nbsp;<i class="fa-solid fa-quote-right quotes"></i></p>
+                        <div class="swiper-client-data grid grid-two-columns">
+                            <figure>
+                                <img class="swiper-img" src="images/clients/c.jpg" alt="a">
+                            </figure>
+                            <div class="client-details">
+                                <p class="client-details-para">Willa Deoreo</p>
+                                <p>Web Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p><i class="fa-solid fa-quote-left quotes"></i>&nbsp;&nbsp; Harsh: You Know sometimes when I'm talking, my words can't keep up with my thoughts... I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. &nbsp;&nbsp;<i class="fa-solid fa-quote-right quotes"></i></p>
+                        <div class="swiper-client-data grid grid-two-columns">
+                            <figure>
+                                <img class="swiper-img" src="images/clients/d.jpg" alt="a">
+                            </figure>
+                            <div class="client-details">
+                                <p class="client-details-para">John Advocate</p>
+                                <p>CEO INC. Private Limited</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p><i class="fa-solid fa-quote-left quotes"></i>&nbsp;&nbsp; Harsh: You Know sometimes when I'm talking, my words can't keep up with my thoughts... I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. &nbsp;&nbsp;<i class="fa-solid fa-quote-right quotes"></i></p>
+                        <div class="swiper-client-data grid grid-two-columns">
+                            <figure>
+                                <img class="swiper-img" src="images/clients/e.jpg" alt="a">
+                            </figure>
+                            <div class="client-details">
+                                <p class="client-details-para">Mousi Samson</p>
+                                <p>Entrepreuner</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p><i class="fa-solid fa-quote-left quotes"></i>&nbsp;&nbsp; Harsh: You Know sometimes when I'm talking, my words can't keep up with my thoughts... I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. &nbsp;&nbsp;<i class="fa-solid fa-quote-right quotes"></i></p>
+                        <div class="swiper-client-data grid grid-two-columns">
+                            <figure>
+                                <img class="swiper-img" src="images/clients/f.jpg" alt="a">
+                            </figure>
+                            <div class="client-details">
+                                <p class="client-details-para">Vordo Dorman</p>
+                                <p>Photographer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p><i class="fa-solid fa-quote-left quotes"></i>&nbsp;&nbsp; Harsh: You Know sometimes when I'm talking, my words can't keep up with my thoughts... I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. &nbsp;&nbsp;<i class="fa-solid fa-quote-right quotes"></i></p>
+                        <div class="swiper-client-data grid grid-two-columns">
+                            <figure>
+                                <img class="swiper-img" src="images/clients/g.jpg" alt="a">
+                            </figure>
+                            <div class="client-details">
+                                <p class="client-details-para">Lisa Founsi</p>
+                                <p>MERN Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-client-msg">
+                        <p><i class="fa-solid fa-quote-left quotes"></i>&nbsp;&nbsp; Harsh: You Know sometimes when I'm talking, my words can't keep up with my thoughts... I wonder why we think faster than we speak. Hobbes: Probably so we can think twice. &nbsp;&nbsp;<i class="fa-solid fa-quote-right quotes"></i></p>
+                        <div class="swiper-client-data grid grid-two-columns">
+                            <figure>
+                                <img class="swiper-img" src="images/clients/h.jpg" alt="a">
+                            </figure>
+                            <div class="client-details">
+                                <p class="client-details-para">Hammer Gordo</p>
+                                <p>Senior Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- Freelancing Section -->
+
+    <section class="section section-freelancing">
+        <div class="overlay"></div>
+        <div class="container freelancing-content">
+            <h2 class="freelancing-heading">I am <span class="freelancing-span">available</span> for freelancing&nbsp; <i class="fa-regular fa-lightbulb"></i></h2>
+            <p class="freelancing-para">If you need a developer who can work on your project, feel free to contact me.</p>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <section class="section section-contact" id="contact">
+        <div class="container">
+            <h2 class="common-heading">Contact Us&nbsp; <i class="fa-solid fa-mobile-screen"></i></h2>
+        </div>
+
+        <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110204.58771735367!2d77.93473398378957!3d30.3255508049571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929c356c888af%3A0x4c3562c032518799!2sDehradun%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1707394666507!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <div class="section-contact-main contact-container">
+            <form action="https://formspree.io/f/xdoqevwj" method="POST">
+                <div class="grid grid-two-columns">
+                    <input id="name" name="Name" type="text" placeholder="Name" required autocomplete="off">
+                    <input id="email" name="Email" type="email" placeholder="Email" required autocomplete="off">
+                </div>
+                <div>
+                    <input id="subject" name="subject" type="text" placeholder="Subject" required autocomplete="off">
+                </div>
+                <div>
+                    <textarea id="message" name="message" cols="30" rows="10" placeholder="Message" required autocomplete="off"></textarea>
+                </div>
+                <div>
+                    <input id="submit" name="submit" type="submit" class="btn" value="Send Message">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer class="section section-footer">
+        <div class="container grid grid-four-columns">
+            <div class="f-about">
+                <h3>About</h3>
+                <p>Passionate creator with a knack for design and storytelling. Transforming ideas into captivating visuals.</p>
+            </div>
+            <div class="f-links">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-arrow-right"></i>&nbsp; 
+                    Home</a></li>
+                    <li><a href="#about"><i class="fa-solid fa-arrow-right"></i>&nbsp; 
+                    About</a></li>
+                    <li><a href="#portfolio"><i class="fa-solid fa-arrow-right"></i>&nbsp;        
+                    Portfolio</a></li>
+                    <li><a href="#service"><i class="fa-solid fa-arrow-right"></i>&nbsp; Service</a></li>
+                    <li><a href="#client"><i class="fa-solid fa-arrow-right"></i>&nbsp; 
+                    Client</a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-arrow-right"></i>&nbsp; Contact</a></li>
+                </ul>
+            </div>
+            <div class="f-service">
+                <h3>Service</h3>
+                <ul>
+                    <li><a href="#service"><i class="fa-solid fa-arrow-right"></i>&nbsp;Web Development</a></li>
+                    <li><a href="#service"><i class="fa-solid fa-arrow-right"></i>&nbsp;Electron JS</a></li>
+                    <li><a href="#service"><i class="fa-solid fa-arrow-right"></i>&nbsp;Python Development</a></li>
+                    <li><a href="#service"><i class="fa-solid fa-arrow-right"></i>&nbsp;React JS</a></li>
+                    <li><a href="#service"><i class="fa-solid fa-arrow-right"></i>&nbsp;Tailwind CSS</a></li>
+                    <li><a href="#service"><i class="fa-solid fa-arrow-right"></i>&nbsp;Data Analysis</a></li>
+                </ul>
+            </div>
+            <div class="f-address">
+                <h3>Have a Questions?</h3>
+                <address>
+                    <div><p><i class="fa-solid fa-location-dot"></i> Dehradun, Uttarakhand, India</p></div>
+                    <div><p><i class="fa-solid fa-phone"></i> <a href="tel:+919149349278">+91 9149349278</a></p></div>
+                    <div><p><i class="fa-regular fa-envelope"></i>
+                    <a href="mailto:harshvardhansharma17@gmail.com">harshvardhansharma17@gmail.com</a></p></div>
+                </address>
+            </div>
+        </div>
+        <div class="container">
+            <div class="f-social-links">
+                <a href="https://www.instagram.com/ha.rshsharma135/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/harshvardhan-sharma-a3685a236/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/hvs1234" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <div class="f-credits">
+                <p>Copyright <i class="fa-regular fa-copyright"></i> 2024 All right reserved || This website is made with <i class="fa-regular fa-heart"></i> Harshvardhan Sharma</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <div class="scroll-top-style">
+        <i class="fa-solid fa-arrow-up scroll-top"></i>
+    </div>
+
+    <script src="https://kit.fontawesome.com/c855874020.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</body>
+</html>
